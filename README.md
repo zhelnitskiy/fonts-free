@@ -1,12 +1,11 @@
 # Structure
 
 	├── FONT FAMILY
-	
-		├── FORMAT
-			├── GLYPHS 
-
-		├── fonts.css
-		├── fonts.scss
+	  ├── ttf
+	  ├── woff2
+	    ├── glyphs
+	    ├── fonts.css
+	    ├── fonts.scss
 
 # Fonts List
 
