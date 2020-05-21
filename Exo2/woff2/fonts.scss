@@ -1,0 +1,52 @@
+// FONTS LOAD SECTION
+
+@mixin font($fname, $fstyle, $fweight, $furl) {
+	@font-face {
+		font-family: $fname;
+		font-style: $fstyle;
+		font-weight: $fweight;
+		font-display: swap; // Uncomment to initially display system fonts
+		src: local($fname), url($furl) format('woff2');
+	}
+}
+
+// Exo 2 Cyrillic
+@include font('Exo 2', normal, 100, '../fonts/Exo2/cyrillic/thin.woff2');
+@include font('Exo 2', italic, 100, '../fonts/Exo2/cyrillic/thin-italic.woff2');
+@include font('Exo 2', normal, 200, '../fonts/Exo2/cyrillic/extralight.woff2');
+@include font('Exo 2', italic, 200, '../fonts/Exo2/cyrillic/extralight-italic.woff2');
+@include font('Exo 2', normal, 300, '../fonts/Exo2/cyrillic/light.woff2');
+@include font('Exo 2', italic, 300, '../fonts/Exo2/cyrillic/light-italic.woff2');
+@include font('Exo 2', normal, 400, '../fonts/Exo2/cyrillic/regular.woff2');
+@include font('Exo 2', italic, 400, '../fonts/Exo2/cyrillic/italic.woff2');
+@include font('Exo 2', normal, 500, '../fonts/Exo2/cyrillic/medium.woff2');
+@include font('Exo 2', italic, 500, '../fonts/Exo2/cyrillic/medium-italic.woff2');
+@include font('Exo 2', normal, 600, '../fonts/Exo2/cyrillic/semibold.woff2');
+@include font('Exo 2', italic, 600, '../fonts/Exo2/cyrillic/semibold-italic.woff2');
+@include font('Exo 2', normal, 700, '../fonts/Exo2/cyrillic/bold.woff2');
+@include font('Exo 2', italic, 700, '../fonts/Exo2/cyrillic/bold-italic.woff2');
+@include font('Exo 2', normal, 800, '../fonts/Exo2/cyrillic/extrabold.woff2');
+@include font('Exo 2', italic, 800, '../fonts/Exo2/cyrillic/extrabold-italic.woff2');
+@include font('Exo 2', normal, 900, '../fonts/Exo2/cyrillic/black.woff2');
+@include font('Exo 2', italic, 900, '../fonts/Exo2/cyrillic/black-italic.woff2');
+
+// Exo 2 Latin
+@include font('Exo 2', normal, 100, '../fonts/Exo2/latin/thin.woff2');
+@include font('Exo 2', italic, 100, '../fonts/Exo2/latin/thin-italic.woff2');
+@include font('Exo 2', normal, 200, '../fonts/Exo2/latin/extralight.woff2');
+@include font('Exo 2', italic, 200, '../fonts/Exo2/latin/extralight-italic.woff2');
+@include font('Exo 2', normal, 300, '../fonts/Exo2/latin/light.woff2');
+@include font('Exo 2', italic, 300, '../fonts/Exo2/latin/light-italic.woff2');
+@include font('Exo 2', normal, 400, '../fonts/Exo2/latin/regular.woff2');
+@include font('Exo 2', italic, 400, '../fonts/Exo2/latin/italic.woff2');
+@include font('Exo 2', normal, 500, '../fonts/Exo2/latin/medium.woff2');
+@include font('Exo 2', italic, 500, '../fonts/Exo2/latin/medium-italic.woff2');
+@include font('Exo 2', normal, 600, '../fonts/Exo2/latin/semibold.woff2');
+@include font('Exo 2', italic, 600, '../fonts/Exo2/latin/semibold-italic.woff2');
+@include font('Exo 2', normal, 700, '../fonts/Exo2/latin/bold.woff2');
+@include font('Exo 2', italic, 700, '../fonts/Exo2/latin/bold-italic.woff2');
+@include font('Exo 2', normal, 800, '../fonts/Exo2/latin/extrabold.woff2');
+@include font('Exo 2', italic, 800, '../fonts/Exo2/latin/extrabold-italic.woff2');
+@include font('Exo 2', normal, 900, '../fonts/Exo2/latin/black.woff2');
+@include font('Exo 2', italic, 900, '../fonts/Exo2/latin/black-italic.woff2');
+

@@ -1,0 +1,83 @@
+// FONTS LOAD SECTION
+
+@mixin font($fname, $fstyle, $fweight, $furl) {
+	@font-face {
+		font-family: $fname;
+		font-style: $fstyle;
+		font-weight: $fweight;
+		font-display: swap; // Uncomment to initially display system fonts
+		src: local($fname), url($furl) format('woff2');
+	}
+}
+
+// Open Sans Cyrillic
+@include font('Open Sans', normal, 300, '../fonts/OpenSans/cyrillic/light.woff2');
+@include font('Open Sans', italic, 300, '../fonts/OpenSans/cyrillic/light-italic.woff2');
+@include font('Open Sans', normal, 400, '../fonts/OpenSans/cyrillic/regular.woff2');
+@include font('Open Sans', italic, 400, '../fonts/OpenSans/cyrillic/italic.woff2');
+@include font('Open Sans', normal, 600, '../fonts/OpenSans/cyrillic/semibold.woff2');
+@include font('Open Sans', italic, 600, '../fonts/OpenSans/cyrillic/semibold-italic.woff2');
+@include font('Open Sans', normal, 700, '../fonts/OpenSans/cyrillic/bold.woff2');
+@include font('Open Sans', italic, 700, '../fonts/OpenSans/cyrillic/bold-italic.woff2');
+@include font('Open Sans', normal, 800, '../fonts/OpenSans/cyrillic/extrabold.woff2');
+@include font('Open Sans', italic, 800, '../fonts/OpenSans/cyrillic/extrabold-italic.woff2');
+
+// Open Sans Cyrillic Extended
+@include font('Open Sans', normal, 300, '../fonts/OpenSans/cyrillic-ext/light.woff2');
+@include font('Open Sans', italic, 300, '../fonts/OpenSans/cyrillic-ext/light-italic.woff2');
+@include font('Open Sans', normal, 400, '../fonts/OpenSans/cyrillic-ext/regular.woff2');
+@include font('Open Sans', italic, 400, '../fonts/OpenSans/cyrillic-ext/italic.woff2');
+@include font('Open Sans', normal, 600, '../fonts/OpenSans/cyrillic-ext/semibold.woff2');
+@include font('Open Sans', italic, 600, '../fonts/OpenSans/cyrillic-ext/semibold-italic.woff2');
+@include font('Open Sans', normal, 700, '../fonts/OpenSans/cyrillic-ext/bold.woff2');
+@include font('Open Sans', italic, 700, '../fonts/OpenSans/cyrillic-ext/bold-italic.woff2');
+@include font('Open Sans', normal, 800, '../fonts/OpenSans/cyrillic-ext/extrabold.woff2');
+@include font('Open Sans', italic, 800, '../fonts/OpenSans/cyrillic-ext/extrabold-italic.woff2');
+
+// Open Sans Latin
+@include font('Open Sans', normal, 300, '../fonts/OpenSans/latin/light.woff2');
+@include font('Open Sans', italic, 300, '../fonts/OpenSans/latin/light-italic.woff2');
+@include font('Open Sans', normal, 400, '../fonts/OpenSans/latin/regular.woff2');
+@include font('Open Sans', italic, 400, '../fonts/OpenSans/latin/italic.woff2');
+@include font('Open Sans', normal, 600, '../fonts/OpenSans/latin/semibold.woff2');
+@include font('Open Sans', italic, 600, '../fonts/OpenSans/latin/semibold-italic.woff2');
+@include font('Open Sans', normal, 700, '../fonts/OpenSans/latin/bold.woff2');
+@include font('Open Sans', italic, 700, '../fonts/OpenSans/latin/bold-italic.woff2');
+@include font('Open Sans', normal, 800, '../fonts/OpenSans/latin/extrabold.woff2');
+@include font('Open Sans', italic, 800, '../fonts/OpenSans/latin/extrabold-italic.woff2');
+
+// Open Sans Latin Extended
+@include font('Open Sans', normal, 300, '../fonts/OpenSans/latin-ext/light.woff2');
+@include font('Open Sans', italic, 300, '../fonts/OpenSans/latin-ext/light-italic.woff2');
+@include font('Open Sans', normal, 400, '../fonts/OpenSans/latin-ext/regular.woff2');
+@include font('Open Sans', italic, 400, '../fonts/OpenSans/latin-ext/italic.woff2');
+@include font('Open Sans', normal, 600, '../fonts/OpenSans/latin-ext/semibold.woff2');
+@include font('Open Sans', italic, 600, '../fonts/OpenSans/latin-ext/semibold-italic.woff2');
+@include font('Open Sans', normal, 700, '../fonts/OpenSans/latin-ext/bold.woff2');
+@include font('Open Sans', italic, 700, '../fonts/OpenSans/latin-ext/bold-italic.woff2');
+@include font('Open Sans', normal, 800, '../fonts/OpenSans/latin-ext/extrabold.woff2');
+@include font('Open Sans', italic, 800, '../fonts/OpenSans/latin-ext/extrabold-italic.woff2');
+
+// Open Sans Greek
+@include font('Open Sans', normal, 300, '../fonts/OpenSans/greek/light.woff2');
+@include font('Open Sans', italic, 300, '../fonts/OpenSans/greek/light-italic.woff2');
+@include font('Open Sans', normal, 400, '../fonts/OpenSans/greek/regular.woff2');
+@include font('Open Sans', italic, 400, '../fonts/OpenSans/greek/italic.woff2');
+@include font('Open Sans', normal, 600, '../fonts/OpenSans/greek/semibold.woff2');
+@include font('Open Sans', italic, 600, '../fonts/OpenSans/greek/semibold-italic.woff2');
+@include font('Open Sans', normal, 700, '../fonts/OpenSans/greek/bold.woff2');
+@include font('Open Sans', italic, 700, '../fonts/OpenSans/greek/bold-italic.woff2');
+@include font('Open Sans', normal, 800, '../fonts/OpenSans/greek/extrabold.woff2');
+@include font('Open Sans', italic, 800, '../fonts/OpenSans/greek/extrabold-italic.woff2');
+
+// Open Sans Greek Extended
+@include font('Open Sans', normal, 300, '../fonts/OpenSans/greek-ext/light.woff2');
+@include font('Open Sans', italic, 300, '../fonts/OpenSans/greek-ext/light-italic.woff2');
+@include font('Open Sans', normal, 400, '../fonts/OpenSans/greek-ext/regular.woff2');
+@include font('Open Sans', italic, 400, '../fonts/OpenSans/greek-ext/italic.woff2');
+@include font('Open Sans', normal, 600, '../fonts/OpenSans/greek-ext/semibold.woff2');
+@include font('Open Sans', italic, 600, '../fonts/OpenSans/greek-ext/semibold-italic.woff2');
+@include font('Open Sans', normal, 700, '../fonts/OpenSans/greek-ext/bold.woff2');
+@include font('Open Sans', italic, 700, '../fonts/OpenSans/greek-ext/bold-italic.woff2');
+@include font('Open Sans', normal, 800, '../fonts/OpenSans/greek-ext/extrabold.woff2');
+@include font('Open Sans', italic, 800, '../fonts/OpenSans/greek-ext/extrabold-italic.woff2');
